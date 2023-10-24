@@ -1032,6 +1032,7 @@ stream {
         proxy_ssl_protocols                     {{ $server.ProxySSL.Protocols }};
         proxy_ssl_verify                        {{ $server.ProxySSL.Verify }};
         proxy_ssl_verify_depth                  {{ $server.ProxySSL.VerifyDepth }};
+        # 1035 |{{ $server.ProxySSL.ProxySSLName }}|{{ $server.ProxySSL.ProxySSLServerName }}|
         {{ if not (empty $server.ProxySSL.ProxySSLName) }}
         proxy_ssl_name                          {{ $server.ProxySSL.ProxySSLName }};
         proxy_ssl_server_name                   {{ $server.ProxySSL.ProxySSLServerName }};
@@ -1154,6 +1155,7 @@ stream {
             proxy_set_header            X-Auth-Request-Redirect $request_uri;
             {{ end }}
 
+            # 1158
             {{ if $externalAuth.AuthCacheKey }}
             proxy_buffering                         "on";
             {{ else }}
@@ -1529,6 +1531,7 @@ stream {
             proxy_ssl_verify_depth                  {{ $location.ProxySSL.VerifyDepth }};
             {{ end }}
 
+            # 1533 |{{ $location.ProxySSL.ProxySSLName }}|{{ $location.ProxySSL.ProxySSLServerName }}|
             {{ if not (empty $location.ProxySSL.ProxySSLName) }}
             proxy_ssl_name                          {{ $location.ProxySSL.ProxySSLName }};
             {{ end }}
