@@ -8,7 +8,7 @@ require (
 	github.com/helm/helm v2.17.0+incompatible
 	github.com/magefile/mage v1.15.0
 	github.com/vmware-labs/yaml-jsonpath v0.3.2
-	golang.org/x/oauth2 v0.18.0
+	golang.org/x/oauth2 v0.27.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -29,7 +29,6 @@ require (
 	github.com/sergi/go-diff v1.3.1 // indirect
 	github.com/stretchr/testify v1.9.0 // indirect
 	golang.org/x/crypto v0.31.0 // indirect
-	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
