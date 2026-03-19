@@ -1,6 +1,6 @@
 module k8s.io/ingress-nginx
 
-go 1.23.4
+go 1.24.0
 
 require (
 	dario.cat/mergo v1.0.1
@@ -22,12 +22,12 @@ require (
 	github.com/prometheus/common v0.61.0
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	github.com/yudai/gojsondiff v1.0.0
 	github.com/zakjan/cert-chain-resolver v0.0.0-20221221105603-fcedb00c5b30
-	golang.org/x/crypto v0.31.0
+	golang.org/x/crypto v0.46.0
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56
-	google.golang.org/grpc v1.69.2
+	google.golang.org/grpc v1.79.3
 	google.golang.org/grpc/examples v0.0.0-20240223204917-5ccf176a08ab
 	gopkg.in/go-playground/pool.v3 v3.1.1
 	gopkg.in/mcuadros/go-syslog.v2 v2.3.0
@@ -51,8 +51,9 @@ require (
 	github.com/klauspost/compress v1.17.9 // indirect
 	github.com/moby/sys/userns v0.1.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	go.opentelemetry.io/otel v1.31.0 // indirect
-	go.opentelemetry.io/otel/trace v1.31.0 // indirect
+	go.opentelemetry.io/otel v1.39.0 // indirect
+	go.opentelemetry.io/otel/trace v1.39.0 // indirect
+	golang.org/x/tools/go/packages/packagestest v0.1.1-deprecated // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	sigs.k8s.io/release-utils v0.8.3 // indirect
 )
@@ -72,7 +73,7 @@ require (
 	github.com/evanphx/json-patch/v5 v5.9.0 // indirect
 	github.com/fullsailor/pkcs7 v0.0.0-20190404230743-d7302db945fa // indirect
 	github.com/go-errors/errors v1.5.1 // indirect
-	github.com/go-logr/logr v1.4.2 // indirect
+	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-openapi/jsonpointer v0.21.0 // indirect
 	github.com/go-openapi/jsonreference v0.21.0 // indirect
 	github.com/go-openapi/swag v0.23.0 // indirect
@@ -83,7 +84,7 @@ require (
 	github.com/gomarkdown/markdown v0.0.0-20240328165702-4d01890c35c0 // indirect
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/gnostic-models v0.6.8 // indirect
-	github.com/google/go-cmp v0.6.0 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/pprof v0.0.0-20241210010833-40e02aabc2ad // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
@@ -113,17 +114,17 @@ require (
 	github.com/xlab/treeprint v1.2.0 // indirect
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
 	github.com/yudai/pp v2.0.1+incompatible // indirect
-	golang.org/x/mod v0.22.0 // indirect
-	golang.org/x/net v0.33.0 // indirect
-	golang.org/x/oauth2 v0.24.0 // indirect
-	golang.org/x/sync v0.10.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/term v0.27.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/mod v0.30.0 // indirect
+	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/oauth2 v0.34.0 // indirect
+	golang.org/x/sync v0.19.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
+	golang.org/x/term v0.38.0 // indirect
+	golang.org/x/text v0.32.0 // indirect
 	golang.org/x/time v0.7.0 // indirect
-	golang.org/x/tools v0.28.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20241015192408-796eee8c2d53 // indirect
-	google.golang.org/protobuf v1.35.2 // indirect
+	golang.org/x/tools v0.39.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217 // indirect
+	google.golang.org/protobuf v1.36.10 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
